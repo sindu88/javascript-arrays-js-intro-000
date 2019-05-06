@@ -14,12 +14,12 @@ function destructivelyAddElementToBeginningOfArray(array,num)
 function addElementToEndOfArray(array,num)
 {
 
-newArr=  [...array,1];
+newArr=  [...array,num];
 return newArr;
 }
 function destructivelyAddElementToEndOfArray(array,num)
 {
-  array=array.push(1);
+  array=array.push(num);
   return array;
 
 }
