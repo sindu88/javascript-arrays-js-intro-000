@@ -19,7 +19,7 @@ return newArr;
 }
 function destructivelyAddElementToEndOfArray(array,num)
 {
-  array=array.push(num);
+  array.push(num);
   return array;
 
 }
